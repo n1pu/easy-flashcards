@@ -1,0 +1,41 @@
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 300px;
+    width: 400px;
+    background: #333;
+    color: #ddd;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 999rem;
+    margin: 0 .5rem;
+    padding: .8rem;
+    font-size: 1rem;
+}
+
+.reset {
+    background: #C4F1BE;
+    color: #333;
+}
+
+.export {
+    background: #947EB0;
+    color: #ddd;
+}
